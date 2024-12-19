@@ -1,0 +1,51 @@
+html {
+    background-color:  #f5f4f9;
+}
+form {
+    
+    border: 3px solid  #fefdff;
+    width: 300px;
+    height: 530px;
+    margin: 15px;
+    background-color: white;
+    padding: 25px;
+    border-radius: 25px;
+     margin-bottom: 15px;
+     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+     
+    
+    
+}
+div {
+    display: flex;
+    justify-content: center;
+    border-radius: 30px;
+    margin-bottom: 15px;
+}
+.sarlavha {
+    text-align: center;
+}
+.inputs {
+    width: 300px;
+    height: 20px;
+    border-radius: 5px;
+}
+.submit {
+    background-color: #4caf53;
+    width: 170px;
+    height: 27px;
+    border-radius: 5px;
+
+}
+.reset {
+    background-color: #f44439;
+    width: 150px;
+    height: 27px;
+    border-radius: 5px;
+
+}
+.last_inputs {
+    display: flex;
+    justify-content: space-between;
+    gap: 5px;
+}

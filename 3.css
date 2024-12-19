@@ -1,0 +1,18 @@
+table {
+    margin: 0 auto;
+    background-color: #063f06;
+    border-radius: 8px;
+    border: solid #00ff00;
+    box-shadow: #063f06;
+    width: 90%;
+    
+}
+html {
+    background-color: #222222;
+}
+.last_div {
+    display: flex;
+    justify-content: center;
+    height: 30px;
+    border-radius: 8px;
+}

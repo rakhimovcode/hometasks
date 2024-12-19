@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="uz">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mahsulotlar</title>
+</head>
+<style>
+    html {
+        background-color: #f5f5f5;
+    }
+</style>
+
+<body>
+    <div style="width: 100%; background-color: #333333; color: white; display: flex; flex-direction: column; align-items: center; text-align: center; margin: 0 auto; padding: 10px; height: 100px;"><h1>Mahsulotlar</h1>
+        <div><a src="4.html" style="color: white; text-decoration: none;" href="4.html">Asosiy Sahifaga Qaytish</a></div>
+        </div>
+    
+
+    <h2>Yangi Mahsulot Qo'shish</h2>
+    <form>
+        <label for="name">Nomi:</label>
+        <input style="width: 80%;" type="text" id="name" name="name">
+        <br><br>
+        <label for="price">Narxi:</label>
+        <input style="width: 80%;"  type="number" step="0.01" id="price" name="price">
+        <br><br>
+        <label for="category">Kategoriya:</label>
+       <input style="width: 80%;" type="text" id="category" name="category">
+       <br><br>
+        <label for="stock_quantity">Ombor miqdori:</label>
+        <input style="width: 80%;" type="number" id="stock_quantity" name="stock_quantity">
+        <br><br>
+        <button style="width: 100%; background-color: #333333; color: white ;"   type="submit">Qo'shish</button>
+        <br><br>
+    </form>
+
+    <h2 style="text-align: center;">Mahsulotlar Ro'yxati</h2>
+    <table style="width: 880px;" border="1" cellpadding="8" cellspacing="0">
+        <thead>
+            <tr>
+                <th>#</th>
+                <th>Nomi</th>
+                <th>Narxi</th>
+                <th>Kategoriya</th>
+                <th>Ombor miqdori</th>
+                <th>Harakatlar</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>Laptop</td>
+                <td>1500.00</td>
+                <td>Electronics</td>
+                <td>10</td>
+                <td>
+                    <button style="background-color: #333333;"  type="button">Tahrirlash</button>
+                    <button style="background-color: #333333;" type="button">O'chirish</button>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+
+</html>

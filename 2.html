@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="uz">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shaxsiy Ma'lumotlar</title>
+    <link rel="stylesheet" href="2.css">
+</head>
+
+<body>
+    
+    <div class="container">
+    <form action="/submit-personal-info" method="post">
+        <h1 class="sarlavha">Shaxsiy Ma'lumotlarni Kiritish</h1>
+        <label for="ism">Ismingiz:</label><br>
+        <input class="inputs"  type="text" id="ism" name="ism" placeholder="Ismingizni kiriting" required><br><br>
+
+        <label for="familiya">Familiyangiz:</label><br>
+        <input class="inputs" type="text" id="familiya" name="familiya" placeholder="Familiyangizni kiriting" required><br><br>
+
+        <label for="email">Email manzilingiz:</label><br>
+        <input class="inputs" type="email" id="email" name="email" placeholder="Email manzilingizni kiriting" required><br><br>
+
+        <label for="yosh">Yoshingiz:</label><br>
+        <input class="inputs" type="number" id="yosh" name="yosh" placeholder="Yoshingizni kiriting" required><br><br>
+
+        <label for="jins">Jinsingiz:</label><br>
+        <input type="radio" id="erkak" name="jins" value="erkak" required>
+        <label for="erkak">Erkak</label>
+        <input type="radio" id="ayol" name="jins" value="ayol" required>
+        <label for="ayol">Ayol</label><br><br>
+         <div class="last_inputs">
+        <input class="submit"   type="submit" value="Ma'lumotni yuborish">
+        <input class="reset" type="reset" value="Tozalash">
+        </div>
+    </form>
+    </div>
+</body>
+
+</html>
